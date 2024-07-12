@@ -26,3 +26,20 @@ let Result=97//number
 let StringResult=String(Result)
 console.log(StringResult);//To convert Number into String
 console.log(typeof StringResult);// IS it realy converted into string?
+
+/*********************OPERATIONS**********************************/
+let value=3
+let negvalue=-value
+console.log(negvalue);
+
+//console.log(2+2);
+//console.log(2-2);
+//console.log(2*2);
+//console.log(2/3);
+
+let str1="hello"
+let str2="Vidhan"
+
+let str3=str1+str2
+console.log(str3);
+
