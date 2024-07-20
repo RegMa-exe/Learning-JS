@@ -33,7 +33,39 @@ const Heros=[ "Hulk" , "Ironman", "Vision"]
 let Hero2=Heros[2]//Array start from 0
 console.log(Hero2);
 
+let user1={
+id: "abc123",
+Pass:"123" 
+
+}
+
+console.log(user1.Pass   
+)
+//*****************************MEMORY***************************** *//
+
+//Stack Memory(For primitive Type),Heap Memory(For Non Primitive type)
+
+let emailaddres="xyz@gmail.com"
+  
+ let Username=emailaddres
+ Username="abc546"
+ console.log(Username);
+ console.log(emailaddres);
+ //Stack make copy of data when you use it by other means henace changing it wont change the atcual source but only the copy data that we have maded
 
 
+ //Heap
+ let Details={
 
+Rollno: 300
+
+ }
+
+ let Rank=500
+
+Details.Rollno=Rank
+
+console.log(Rank);
+console.log(Details.Rollno);
+// In Heap Memeory We are accesing the same data everytime we use it so changing one form of it will imapct on the main data also unlike stack memomry
 
