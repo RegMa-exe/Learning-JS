@@ -1,23 +1,23 @@
 /**********NUMBERS********/
 
 const score=400
-//console.log(score);
+console.log(score);
 
 const UserId= new Number(100) //The "new" operator lets developers create an instance of a user-defined object type
-//console.log(UserId);
+console.log(UserId);
 
-//console.log(typeof UserId);//Object
+console.log(typeof UserId);//Object
 
-//console.log(UserId.toString().length);
+console.log(UserId.toString().length);
 
 
 const UserId2=new Number(100.743453)
-//console.log(UserId2.toFixed(2));//It just wind up Ki How much Decimal it will show in output 
+console.log(UserId2.toFixed(2));//It just wind up Ki How much Decimal it will show in output 
 
-//console.log(UserId2.toPrecision(3));//Output 101 (it Round off to the digit you tell)
+console.log(UserId2.toPrecision(3));//Output 101 (it Round off to the digit you tell)
 
 const price =1000000
-//console.log(price.toLocaleString(`en-IN`));//to show data Regionally OUTPUT:10,00,000 instead of 1000000
+console.log(price.toLocaleString(`en-IN`));//to show data Regionally OUTPUT:10,00,000 instead of 1000000
 /* `en-IN` to convert it to Indian standard*/
 
 
