@@ -64,6 +64,36 @@ console.log(Object.values(Player));//Value fo those keys
 console.log(Player.hasOwnProperty("Level"));
 
 
+//IMPORTANT//
+//DESTRUCTRING//
+const course={
+name:"JS",
+Price:999,
+Coach:"Hitesh"
 
+}
+const {name,Price}=course//Instead of doing Nesting always we can Do this to Extract Data from Object Easily
+console.log(name);
+console.log(Price);
+
+const{Coach: Master,}=course//Renamed a Variable Coach=>Master
+console.log(Master);
+console.log();
+
+
+// JSON//Data that we get from websites
+//API CALLS
+
+{
+"name":"vidhan",
+"age":18,
+"Surname":"SHekhawat"
+}
+ //Array could be too Usaed as API
+ [
+{},
+{},
+{},
+ ]
 
 
