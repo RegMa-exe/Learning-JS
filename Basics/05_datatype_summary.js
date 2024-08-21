@@ -51,7 +51,7 @@ let emailaddres="xyz@gmail.com"
  Username="abc546"
  console.log(Username);
  console.log(emailaddres);
- //Stack make copy of data when you use it by other means henace changing it wont change the atcual source but only the copy data that we have maded
+ //Stack make copy of data when you use it by other means henace changing it won't change the actual source but only the copy data that we have genrated
 
 
  //Heap

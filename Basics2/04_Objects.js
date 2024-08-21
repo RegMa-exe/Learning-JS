@@ -83,12 +83,14 @@ console.log();
 
 // JSON//Data that we get from websites
 //API CALLS
-
+/* This is a API call
 {
 "name":"vidhan",
 "age":18,
 "Surname":"SHekhawat"
 }
+
+*/
  //Array could be too Usaed as API
  [
 {},
