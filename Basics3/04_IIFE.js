@@ -6,13 +6,22 @@ function mychai() {//THIS FUNCTION Can Get Pollutted By Effect of Global Scope o
     console.log("CONNECTED");
       
 }
-mychai()
+mychai();
 
 
 //If we have to declare IIFE (Immediate Function)
 //()()
 // First ()=> Here function takes place Second ()=>To Execute
+
 (function coffee(){
     console.log("Hello");
     
-})()
+})();//Named IIFE
+
+// If you get error like you have declred a function after another in that case use ";" to tell a function to finish and move onto another
+
+//UNNAMED IIFE
+((name)=>{
+    console.log(`Hellow ${name}`);
+    
+})(`vidhan`);//why here because () is executing the function here "Isliye yhi dalege value of name"
